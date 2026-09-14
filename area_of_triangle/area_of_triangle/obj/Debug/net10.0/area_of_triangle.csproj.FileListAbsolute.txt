@@ -1,0 +1,16 @@
+C:\Users\2580s\Desktop\c#\area_of_triangle\area_of_triangle\bin\Debug\net10.0\area_of_triangle.exe
+C:\Users\2580s\Desktop\c#\area_of_triangle\area_of_triangle\bin\Debug\net10.0\area_of_triangle.deps.json
+C:\Users\2580s\Desktop\c#\area_of_triangle\area_of_triangle\bin\Debug\net10.0\area_of_triangle.runtimeconfig.json
+C:\Users\2580s\Desktop\c#\area_of_triangle\area_of_triangle\bin\Debug\net10.0\area_of_triangle.dll
+C:\Users\2580s\Desktop\c#\area_of_triangle\area_of_triangle\bin\Debug\net10.0\area_of_triangle.pdb
+C:\Users\2580s\Desktop\c#\area_of_triangle\area_of_triangle\obj\Debug\net10.0\area_of_triangle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2580s\Desktop\c#\area_of_triangle\area_of_triangle\obj\Debug\net10.0\area_of_triangle.AssemblyInfoInputs.cache
+C:\Users\2580s\Desktop\c#\area_of_triangle\area_of_triangle\obj\Debug\net10.0\area_of_triangle.AssemblyInfo.cs
+C:\Users\2580s\Desktop\c#\area_of_triangle\area_of_triangle\obj\Debug\net10.0\area_of_triangle.csproj.CoreCompileInputs.cache
+C:\Users\2580s\Desktop\c#\area_of_triangle\area_of_triangle\obj\Debug\net10.0\area_of_triangle.sourcelink.json
+C:\Users\2580s\Desktop\c#\area_of_triangle\area_of_triangle\obj\Debug\net10.0\area_of_triangle.dll
+C:\Users\2580s\Desktop\c#\area_of_triangle\area_of_triangle\obj\Debug\net10.0\refint\area_of_triangle.dll
+C:\Users\2580s\Desktop\c#\area_of_triangle\area_of_triangle\obj\Debug\net10.0\area_of_triangle.pdb
+C:\Users\2580s\Desktop\c#\area_of_triangle\area_of_triangle\obj\Debug\net10.0\area_of_triangle.genruntimeconfig.cache
+C:\Users\2580s\Desktop\c#\area_of_triangle\area_of_triangle\obj\Debug\net10.0\ref\area_of_triangle.dll
+C:\Users\2580s\Desktop\c#\area_of_triangle\area_of_triangle\obj\Debug\net10.0\area_of_.02D91B62.Up2Date

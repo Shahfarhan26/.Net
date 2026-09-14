@@ -14,14 +14,16 @@ namespace myFirst
         static void Main(string[] args)
         {
             //variable 
-            int x, y, z;
-            x = 10;
-            y = 20;
-            z = x + y;
+            //int x, y, z;
+            //x = 10;
+            //y = 20;
+            //z = x + y;
             // to print
-            Console.WriteLine(z);
-            Console.ReadKey();
-            Console.WriteLine("I'm sorry, Dave. I'm afraid | can't do that.");
+            int a = 5;
+            int b =2;
+            b = a;
+            a = -3;
+            Console.WriteLine("a = " + a + "\n b = " + b);
         }
     }
 }

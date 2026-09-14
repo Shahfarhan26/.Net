@@ -1,0 +1,16 @@
+C:\Users\2580s\Desktop\c#\vol\vol\bin\Debug\net10.0\vol.exe
+C:\Users\2580s\Desktop\c#\vol\vol\bin\Debug\net10.0\vol.deps.json
+C:\Users\2580s\Desktop\c#\vol\vol\bin\Debug\net10.0\vol.runtimeconfig.json
+C:\Users\2580s\Desktop\c#\vol\vol\bin\Debug\net10.0\vol.dll
+C:\Users\2580s\Desktop\c#\vol\vol\bin\Debug\net10.0\vol.pdb
+C:\Users\2580s\Desktop\c#\vol\vol\obj\Debug\net10.0\vol.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2580s\Desktop\c#\vol\vol\obj\Debug\net10.0\vol.AssemblyInfoInputs.cache
+C:\Users\2580s\Desktop\c#\vol\vol\obj\Debug\net10.0\vol.AssemblyInfo.cs
+C:\Users\2580s\Desktop\c#\vol\vol\obj\Debug\net10.0\vol.csproj.CoreCompileInputs.cache
+C:\Users\2580s\Desktop\c#\vol\vol\obj\Debug\net10.0\vol.sourcelink.json
+C:\Users\2580s\Desktop\c#\vol\vol\obj\Debug\net10.0\vol.dll
+C:\Users\2580s\Desktop\c#\vol\vol\obj\Debug\net10.0\refint\vol.dll
+C:\Users\2580s\Desktop\c#\vol\vol\obj\Debug\net10.0\vol.pdb
+C:\Users\2580s\Desktop\c#\vol\vol\obj\Debug\net10.0\vol.genruntimeconfig.cache
+C:\Users\2580s\Desktop\c#\vol\vol\obj\Debug\net10.0\ref\vol.dll
+C:\Users\2580s\Desktop\c#\vol\vol\obj\Debug\net10.0\vol.csproj.Up2Date

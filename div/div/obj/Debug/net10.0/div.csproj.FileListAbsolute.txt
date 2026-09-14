@@ -1,0 +1,16 @@
+C:\Users\2580s\Desktop\c#\div\div\bin\Debug\net10.0\div.exe
+C:\Users\2580s\Desktop\c#\div\div\bin\Debug\net10.0\div.deps.json
+C:\Users\2580s\Desktop\c#\div\div\bin\Debug\net10.0\div.runtimeconfig.json
+C:\Users\2580s\Desktop\c#\div\div\bin\Debug\net10.0\div.dll
+C:\Users\2580s\Desktop\c#\div\div\bin\Debug\net10.0\div.pdb
+C:\Users\2580s\Desktop\c#\div\div\obj\Debug\net10.0\div.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2580s\Desktop\c#\div\div\obj\Debug\net10.0\div.AssemblyInfoInputs.cache
+C:\Users\2580s\Desktop\c#\div\div\obj\Debug\net10.0\div.AssemblyInfo.cs
+C:\Users\2580s\Desktop\c#\div\div\obj\Debug\net10.0\div.csproj.CoreCompileInputs.cache
+C:\Users\2580s\Desktop\c#\div\div\obj\Debug\net10.0\div.sourcelink.json
+C:\Users\2580s\Desktop\c#\div\div\obj\Debug\net10.0\div.dll
+C:\Users\2580s\Desktop\c#\div\div\obj\Debug\net10.0\refint\div.dll
+C:\Users\2580s\Desktop\c#\div\div\obj\Debug\net10.0\div.pdb
+C:\Users\2580s\Desktop\c#\div\div\obj\Debug\net10.0\div.genruntimeconfig.cache
+C:\Users\2580s\Desktop\c#\div\div\obj\Debug\net10.0\ref\div.dll
+C:\Users\2580s\Desktop\c#\div\div\obj\Debug\net10.0\div.csproj.Up2Date
