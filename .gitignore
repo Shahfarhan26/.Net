@@ -5,14 +5,14 @@
 *.userosscache
 *.sln.docstates
 
-# Build output
+# .NET build output
 bin/
 obj/
 
 # Visual Studio Code
 .vscode/
 
-# Rider
+# JetBrains Rider
 .idea/
 
 # Logs
