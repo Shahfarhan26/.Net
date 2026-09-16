@@ -1,0 +1,16 @@
+C:\Users\2580s\Desktop\c#\evenOdd\evenOdd\bin\Debug\net10.0\evenOdd.exe
+C:\Users\2580s\Desktop\c#\evenOdd\evenOdd\bin\Debug\net10.0\evenOdd.deps.json
+C:\Users\2580s\Desktop\c#\evenOdd\evenOdd\bin\Debug\net10.0\evenOdd.runtimeconfig.json
+C:\Users\2580s\Desktop\c#\evenOdd\evenOdd\bin\Debug\net10.0\evenOdd.dll
+C:\Users\2580s\Desktop\c#\evenOdd\evenOdd\bin\Debug\net10.0\evenOdd.pdb
+C:\Users\2580s\Desktop\c#\evenOdd\evenOdd\obj\Debug\net10.0\evenOdd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2580s\Desktop\c#\evenOdd\evenOdd\obj\Debug\net10.0\evenOdd.AssemblyInfoInputs.cache
+C:\Users\2580s\Desktop\c#\evenOdd\evenOdd\obj\Debug\net10.0\evenOdd.AssemblyInfo.cs
+C:\Users\2580s\Desktop\c#\evenOdd\evenOdd\obj\Debug\net10.0\evenOdd.csproj.CoreCompileInputs.cache
+C:\Users\2580s\Desktop\c#\evenOdd\evenOdd\obj\Debug\net10.0\evenOdd.sourcelink.json
+C:\Users\2580s\Desktop\c#\evenOdd\evenOdd\obj\Debug\net10.0\evenOdd.dll
+C:\Users\2580s\Desktop\c#\evenOdd\evenOdd\obj\Debug\net10.0\refint\evenOdd.dll
+C:\Users\2580s\Desktop\c#\evenOdd\evenOdd\obj\Debug\net10.0\evenOdd.pdb
+C:\Users\2580s\Desktop\c#\evenOdd\evenOdd\obj\Debug\net10.0\evenOdd.genruntimeconfig.cache
+C:\Users\2580s\Desktop\c#\evenOdd\evenOdd\obj\Debug\net10.0\ref\evenOdd.dll
+C:\Users\2580s\Desktop\c#\evenOdd\evenOdd\obj\Debug\net10.0\evenOdd.csproj.Up2Date
