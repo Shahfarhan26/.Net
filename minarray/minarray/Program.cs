@@ -45,5 +45,23 @@ class Program
         float average = (float)total / arr.Length;
         Console.WriteLine("sum: " + total);
         Console.Write("average: " + average);
+
+        //how to copy contents of one array into other.
+        int[] arr1 = new int[arr.Length];
+        for (int i = 0;i < arr.Length; i++)
+        {
+            arr1[i] = arr[i];
+        }
+        Console.WriteLine("the contents of first array: ");
+        for (int i = 0; i < arr.Length; i++)
+        {
+            Console.Write(arr[i] + " ");
+        }
+        Console.WriteLine();
+        Console.WriteLine("the contents of second array: ");
+        for (int i = 0; i < arr1.Length; i++)
+        {
+            Console.Write(arr1[i] + " ");
+        }
     }
 }
