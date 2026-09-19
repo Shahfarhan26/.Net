@@ -6,11 +6,11 @@ class Program
     static void Main(string[] args)
     {
         
-        /*int[] arr1 = create();
+        int[] arr1 = create();
         print(arr1);
-        int[] arr2 = rev(arr1);
-        print(arr2);
-        */
+        rev(arr1);
+        print(arr1);
+        
     }
     static int[] create()
     {
@@ -35,7 +35,24 @@ class Program
         }
         return rev;
     }*/
-    
+    // another way by doing in place swapping.
+    static void rev(int[] arr)
+    {
+        //instead of fi and si we can use above used formula as well.
+        //instead of using temp we have other options like tuple swap:
+        // (a,b) = (b , a).
+        int fi = 0;
+        int si = arr.Length - 1;
+        Console.WriteLine("Your array has been reversed");
+        for (int i = 0; i < arr.Length/2; i++)
+        {
+            int temp = arr[fi];
+            arr[fi] = arr[si];
+            arr[si] = temp;
+            fi++;
+            si--;
+        }
+    }
     static void print(int[] arr1)
     {
         Console.Write("Your Array is as follows: ");
