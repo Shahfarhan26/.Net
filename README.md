@@ -53,3 +53,16 @@ C#/
 │   ├── ...
 │
 └── README.md
+## 🛠️ Practice Projects
+
+Some of the projects and exercises in this repository include:
+
+- Calculator
+- Number Guessing Game
+- Rock Paper Scissors
+- Dice Rolling
+- FizzBuzz
+- Array and recursion exercises
+- Enumeration exercises
+- Basic OOP programs
+- Type casting and conditional logic exercises
