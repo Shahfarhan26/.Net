@@ -2,56 +2,27 @@
 
 public class Colors
 {
-    private int red, green, blue, alpha;
+     public int Red { get; set; }
+     public int Green { get; set; }
+     public int Blue { get; set; }
+     public int Alpha { get; set; }
 
     public Colors(int r, int g, int b, int a)
     {
-        this.red = r;
-        this.green = g;
-        this.blue = b;
-        this.alpha = a;
+        Red = r;
+        Green = g;
+        Blue = b;
+        Alpha = a;
     }
     public Colors(int r, int g, int b)
     {
-        this.red = r;
-        this.green = g;
-        this.blue = b;
-        this.alpha = 255;
-    }
-    public int getRed()
-    {
-        return red;
-    }
-    public int getBlue()
-    {
-        return blue;
-    }
-    public int getGreen()
-    {
-        return green;
-    }
-    public int getAlpha()
-    {
-        return alpha;
-    }
-    public void setRed(int r)
-    {
-        this.red = r;
-    }
-    public void setBlue(int b)
-    {
-        this.blue = b;
-    }
-    public void setGreen(int g)
-    {
-        this.green = g;
-    }
-    public void setAlpha(int a)
-    {
-        this.alpha = a;
+        Red = r;
+        Green = g;
+        Blue = b;
+        Alpha = 255;
     }
     public int greyScale()
     {
-        return (red + green + blue) / 3;
+        return (Red + Green + Blue) / 3;
     }
 }
