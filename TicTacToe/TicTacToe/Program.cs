@@ -10,12 +10,11 @@ class Program
         Dash(2);
         string P2 = Name2();
         Dash(2);
-        
+        Start(P1, P2);
+        PvP(P1, P2);
+        Dash(2);
         while (choice)
         {
-            Start(P1, P2);
-            PvP(P1,P2);
-            Dash(2);
             Console.WriteLine("Do you want to play again? (Y/N)");
             Dash(2);
             string? ch = Console.ReadLine()?.ToLower();
@@ -23,7 +22,19 @@ class Program
             {
                 choice = false;
             }
-        }
+            else if ((ch != "n") && (ch != "y"))
+            {
+                Console.WriteLine("wrong choice. choose again.");
+                Dash(2);
+                ch = Console.ReadLine()?.ToLower();
+            }
+            else
+            {
+                Start(P1, P2);
+                PvP(P1, P2);
+                Dash(2);
+            }
+        } 
     }
     static void Greet()
     {
@@ -47,7 +58,8 @@ class Program
             {
                 Console.WriteLine($"{P2}'s turn. please choose 'O' position.");
                 ox = Convert.ToInt32(Console.ReadLine());
-                if ((xo[ox] == "X") || (xo[ox] == "O"))
+                
+                if ((xo[ox] == "X") || (xo[ox] == "O") || (ox < 1) || (ox > 9))
                 {
                     Console.WriteLine("wrong choice. already filled");
                     continue;
@@ -69,7 +81,7 @@ class Program
             {
                 Console.WriteLine($"{P1}'s turn. please choose 'X' position.");
                 ox = Convert.ToInt32(Console.ReadLine());
-                if ((xo[ox] == "X") || (xo[ox] == "O"))
+                if ((xo[ox] == "X") || (xo[ox] == "O") || (ox < 1) || (ox > 9))
                 {
                     Console.WriteLine("wrong choice. already filled");
                     continue;
