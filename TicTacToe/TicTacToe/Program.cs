@@ -3,8 +3,27 @@ class Program
 {
     static void Main()
     {
+        bool choice = true;
         Greet();
-        PvP();
+        Dash(2);
+        string P1 = Name1();
+        Dash(2);
+        string P2 = Name2();
+        Dash(2);
+        
+        while (choice)
+        {
+            Start(P1, P2);
+            PvP(P1,P2);
+            Dash(2);
+            Console.WriteLine("Do you want to play again? (Y/N)");
+            Dash(2);
+            string? ch = Console.ReadLine()?.ToLower();
+            if (ch == "n")
+            {
+                choice = false;
+            }
+        }
     }
     static void Greet()
     {
@@ -14,33 +33,9 @@ class Program
         Console.WriteLine("    Hope You Enjoy! May Your Time pass Smoothly   ");
         Dash(1);
     }
-    static void PvP()
+    static void PvP(string P1, string P2)
     {
-        Dash(2);
-        Console.Write("        Player 1 Please Enter your name: ");
-        string? P1 = Console.ReadLine();
-        if (string.IsNullOrWhiteSpace(P1))
-        {
-            P1 = "Player 1";
-        }
-        Dash(2);
-        Console.Write("        Player 2 Please Enter your name: ");
-        string? P2 = Console.ReadLine();
-        if (string.IsNullOrWhiteSpace(P2))
-        {
-            P2 = "Player 2";
-        }
-        Dash(2);
-        Console.WriteLine($"        Welcome {P1} = 'X' and {P2} = 'O'        ");
-        Dash(2);
-        Console.WriteLine($"               -------------------               ");
-        Console.WriteLine($"               |  1  |  2  |  3  |               ");
-        Console.WriteLine($"               -------------------               ");
-        Console.WriteLine($"               |  4  |  5  |  6  |               ");
-        Console.WriteLine($"               -------------------               ");
-        Console.WriteLine($"               |  7  |  8  |  9  |               ");
-        Console.WriteLine($"               -------------------               ");
-        Dash(2);
+        
         int i = 1;
         string[] xo = [ "","1", "2", "3", "4", "5", "6", "7", "8", "9" ];
         int ox;
@@ -140,6 +135,40 @@ class Program
         Console.WriteLine($"                -------------------");
         Dash(2);
     } 
+    static string Name1()
+    {
+        Console.Write("        Player 1 Please Enter your name: ");
+        string? P1 = Console.ReadLine();
+        if (string.IsNullOrWhiteSpace(P1))
+        {
+            P1 = "Player 1";
+        }
+        return P1;
+    }
+    static string Name2()
+    {
+        Console.Write("        Player 2 Please Enter your name: ");
+        string? P2 = Console.ReadLine();
+        if (string.IsNullOrWhiteSpace(P2))
+        {
+            P2 = "Player 2";
+        }
+        return P2;
+    }
+    static void Start(string P1, string P2)
+    {
+        Console.WriteLine($"        Welcome {P1} = 'X' and {P2} = 'O'        ");
+        Dash(2);
+        Console.WriteLine($"               -------------------               ");
+        Console.WriteLine($"               |  1  |  2  |  3  |               ");
+        Console.WriteLine($"               -------------------               ");
+        Console.WriteLine($"               |  4  |  5  |  6  |               ");
+        Console.WriteLine($"               -------------------               ");
+        Console.WriteLine($"               |  7  |  8  |  9  |               ");
+        Console.WriteLine($"               -------------------               ");
+        Dash(2);
+
+    }
     static void Dash(int n)
     {
         for (int i = 0; i < n; i++)
