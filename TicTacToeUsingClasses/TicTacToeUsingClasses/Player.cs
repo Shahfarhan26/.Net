@@ -8,12 +8,16 @@ namespace TicTacToeUsingClasses
     {
         public string Name { get; set; }
         public char Symbol { get; private set; }
+        public int Score { get; private set; }
 
-        internal Player(string Name, char Symbol)
+        internal Player(string name, char symbol)
         {
-            this.Name = Name;
-            this.Symbol = Symbol;
+            Name = name;
+            Symbol = symbol;
         }
-         
+        public void AddWin()
+        {
+            Score++;
+        }
     }
 }

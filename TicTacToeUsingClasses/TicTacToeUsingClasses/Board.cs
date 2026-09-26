@@ -25,15 +25,21 @@ namespace TicTacToeUsingClasses
 
             Console.WriteLine($"                -------------------");
         }
-        public void Position(int pos,char symbol)
+        public bool Position(int pos,char symbol)
         {
-            if (symbol == 'X' || symbol == 'O')
+            if (pos > 0 && pos < 10)
             {
-                if (pos > 0 && pos < 10 )
+                if (xo[pos] != 'X' && xo[pos] != 'O')
                 {
-                    xo[pos] = symbol;
+                    if (symbol == 'X' || symbol == 'O')  
+                    {
+                        xo[pos] = symbol;
+                        return true;
+                    }
                 }
             }
+                Console.WriteLine("wrong choice");
+                return false;    
         }
         public bool CheckWin(char symbol)
         {
@@ -50,6 +56,10 @@ namespace TicTacToeUsingClasses
                 return true;
             }
             return false;
+        }
+        public void Reset()
+        {
+            xo = [' ', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
         }
     }
 }

@@ -6,53 +6,77 @@ namespace TicTacToeUsingClasses
 {
     internal class Game
     {
-        private Player p1;
-        private Player p2;
+        private Player[] players;
         private Board b1;
         public Game(Player p1, Player p2, Board b1)
         {
-            this.p1 = p1;
-            this.p2 = p2;
+            players = new Player[] { p1, p2 };
             this.b1 = b1;
         }
         public void Start()
         {
-            b1.Display();
-            for (int i = 1; i < 10; i++)
+            int round = 1;
+            int draws = 0;
+            Console.WriteLine("Welcome to Tic Tac Toe");
+            Console.WriteLine("How many rounds do you want to play");
+            int rounds = Convert.ToInt32(Console.ReadLine());
+            for (int j = 0; j < rounds; j++)
             {
-                Console.WriteLine("Welcome to Tic Tac Toe");
-                int pos;
-                if ((i % 2) == 0)
+                Console.WriteLine($"round {round} begin. ");
+                bool draw = true;
+                b1.Display();
+                for (int i = 1; i < 10; i++)
                 {
-                    Console.WriteLine($"{p2.Name}'s turn. please choose {p2.Symbol} position.");
-                    pos = Convert.ToInt32(Console.ReadLine());
-                    b1.Position(pos, p2.Symbol);
-                    b1.Display();
-                    if (b1.CheckWin(p2.Symbol))
+                    Player currentPlayer = WhoseTurn(i);
+                    Turn(currentPlayer);
+                    if (b1.CheckWin(currentPlayer.Symbol))
                     {
-                        Console.WriteLine($"{p2.Name} won");
+                        Console.WriteLine($"{currentPlayer.Name} won");
+                        currentPlayer.AddWin();
+                        draw = false;
                         break;
                     }
-                    
                 }
-                else if ((i % 2) != 0)
+                if (draw)
                 {
-                    Console.WriteLine($"{p1.Name}'s turn. please choose {p1.Symbol} position.");
-                    pos = Convert.ToInt32(Console.ReadLine());
-                    b1.Position(pos, p1.Symbol);
-                    b1.Display();
-                    if (b1.CheckWin(p1.Symbol))
-                    {
-                        Console.WriteLine($"{p1.Name} won");
-                        break;
-                    }
-                    else
-                    {
-                        Console.WriteLine("          game has resulted in a Draw             ");
-                    }
-
+                    Console.WriteLine("          game has resulted in a Draw             ");
+                    draws++;
                 }
+                b1.Reset();
+                round++;
             }
+            Console.Write($"{players[0].Name}:\n    Wins: {players[0].Score}\n  Draws: {draws}\n    Loses: {rounds - (players[0].Score + draws)}\n");
+            Console.Write($"{players[1].Name}:\n    Wins: {players[1].Score}\n  Draws: {draws}\n    Loses: {rounds - (players[1].Score + draws)}");
+        }
+        private void Turn(Player p)
+        {
+            int pos;
+
+            while (true)
+            {
+                Console.WriteLine($"{p.Name}'s turn. please choose {p.Symbol} position.");
+                pos = Convert.ToInt32(Console.ReadLine());
+
+                if (pos < 1 || pos > 9)
+                {
+                    Console.WriteLine("wrong choice");
+                    continue;
+                }
+
+                bool moveSuccessful = b1.Position(pos, p.Symbol);
+
+                if (!moveSuccessful)
+                {
+                    continue;
+                }
+
+                b1.Display();
+                break;
+            }
+        }
+        private Player WhoseTurn(int i)
+        {
+            return players[1 - (i % 2)];
         }
         
     }
