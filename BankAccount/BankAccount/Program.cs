@@ -58,7 +58,7 @@ class Program
 }
 class BankAccount
 {
-    public string AccountHolder {  get;  set; }
+    public string AccountHolder {  get; }
     public double Balance { get; private set; }
     public BankAccount(string accountHolder, double balance)
     {
@@ -76,7 +76,7 @@ class BankAccount
     }
     public bool Withdraw(double amount)
     {
-        if(amount < Balance)
+        if((amount <= Balance) && (amount  > 0))
         {
             Balance -= amount;
             return true;
