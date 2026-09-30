@@ -440,6 +440,13 @@ combined with:
 ```csharp
 virtual
 override
+Generics are a clever way for you to define special generic types (classes or structs) which save a spot to place a specific type in later. It is a template of sorts, where some types used within your class are filled in when the class gets used, not when the class gets defined.
+
+The template is filled in with the actual types to use when the generic type is used, not when the type is defined. At one time you'll say, “This time | need a list of ints,” and another time you'll say, “Now | want a list of Hamburger objects.”
+
+In short, generics provide a way to define type-safe classes, without having to actually commit to any particular type when you create the class.
+
+In the next chapter, I'll show you how to actually create your own generic types, but right now, we'll start by taking a look at a few generic types that already exist in the .NET Standard Library that you'll find very useful. We'll start with the List class, which is the “official” version of what we've been describing up until now in this chapter. Then we'll look at a generic interface (IEnumerable) which is an interface that allows you to look at all items in a collection, one at a time, and is used by nearly all collection classes. Finally, we'll look at the Dictionary class, which is a bit more advanced and shows off a few more of the features that generics offer.
 ```
 
 This is one of the main mechanisms that makes inheritance useful in real-world C# applications.
